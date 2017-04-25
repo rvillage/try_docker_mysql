@@ -17,3 +17,6 @@ vendor/
 
 # Ignore Byebug command history file.
 .byebug_history
+
+# Docker
+/docker/mysql/volumes

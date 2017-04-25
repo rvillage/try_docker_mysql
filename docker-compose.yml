@@ -9,3 +9,5 @@ services:
     environment:
       # https://github.com/docker-library/docs/tree/master/mysql#environment-variables
       MYSQL_ALLOW_EMPTY_PASSWORD: 'yes'
+    volumes:
+      - ./docker/mysql/volumes:/var/lib/mysql

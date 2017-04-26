@@ -11,3 +11,4 @@ services:
       MYSQL_ALLOW_EMPTY_PASSWORD: 'yes'
     volumes:
       - ./docker/mysql/volumes:/var/lib/mysql
+      - ./docker/mysql:/etc/mysql/conf.d
